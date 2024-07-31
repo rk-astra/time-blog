@@ -1,0 +1,26 @@
+name = "timeblog"
+compatibility_date = "2023-12-01"
+
+# --------add prisma accelerate url for DATABASE_URL
+# --------add JWT_SECRET
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOThkZWZjZGItNGE0YS00MGU0LWJhNTYtMjExODEyYzRkMmIyIiwidGVuYW50X2lkIjoiMmJjYzhiMzYwYTkzN2ExNzU2YTJkZjE3MTI2MWRiNTY2ZDRhM2MyYWM4NDM1MTZjYzc3ZGUzYjk1N2VkZTJjNyIsImludGVybmFsX3NlY3JldCI6ImYxYzlhNWQ4LWYwZjQtNDVjOC1iMjZhLWExY2M0MTcxMDQyOSJ9.cgBpfkxl6WMuNiNnXDpN9msCpRFvbu2PI3jOGfXeO2U"
+JWT_SECRET = "mysupersecretjwtkey"
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
