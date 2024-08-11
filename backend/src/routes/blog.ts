@@ -170,7 +170,3 @@ blogRouter.get('/bulk', async (c) => {
         return c.text("some error occured");
     }
 })
-  
-
-
-  
